@@ -1,0 +1,27 @@
+{
+    "env":
+    {
+        "browser": true,
+        "node": true
+    },
+    "parserOptions":
+    {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures":
+        {
+            "jsx": true
+        }
+    },
+    "rules":
+    {
+        "semi": 2
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "settings": {
+    "react": {
+      "version": "^16.5.2", // React version, default to the latest React stable release
+    },
+                                                  
+  }
+}

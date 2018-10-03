@@ -1,0 +1,54 @@
+{
+  "name": "rsreddy",
+  "version": "1.0.0",
+  "description": "rsreddy profile",
+  "main": "index.js",
+  "scripts": {
+    "start":
+      "webpack --watch --config webpack.config.js & webpack-dev-server --inline --progress --colors",
+    "build": "webpack --config webpack.config.js --verbose",
+    "stats": "webpack --json > stats.json",
+    "graph": "webpack-stats-graph"
+  },
+  "author": "R Santosh Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-open": "^1.0.0",
+    "jquery": "^2.1.4",
+    "popper.js": "^1.14.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer-loader": "^3.2.0",
+    "babel-loader": "^8.0.2",
+    "babelify": "^10.0.0",
+    "concurrently": "^4.0.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.6.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-stats-graph": "^1.0.8"
+  }
+}
